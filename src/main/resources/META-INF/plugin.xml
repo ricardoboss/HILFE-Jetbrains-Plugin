@@ -4,7 +4,7 @@ see also jetbrains documentation: https://plugins.jetbrains.com/docs/intellij/pl
 <idea-plugin>
     <id>de.ricardoboss.plugins.hilfe-language</id>
     <name>HILFE</name>
-    <vendor>your company/org</vendor>
+    <vendor>Ricardo Boss</vendor>
     <description>Adds support for the HILFE language.</description>
 
     <!-- Product and plugin compatibility requirements -->
