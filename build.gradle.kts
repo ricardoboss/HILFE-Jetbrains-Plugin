@@ -1,7 +1,7 @@
 plugins {
     id("java")
     id("org.jetbrains.kotlin.jvm") version "1.8.21"
-    id("org.jetbrains.intellij") version "1.13.3"
+    id("org.jetbrains.intellij") version "1.15.0"
 }
 
 group = "de.ricardoboss.plugins"
@@ -9,6 +9,8 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+
+    maven { url = uri("https://jitpack.io") }
 }
 
 // Configure Gradle IntelliJ Plugin
@@ -18,6 +20,10 @@ intellij {
     type.set("IC") // Target IDE Platform
 
     plugins.set(listOf(/* Plugin Dependencies */))
+}
+
+dependencies {
+    implementation("com.github.ballerina-platform:lsp4intellij:0.95.1")
 }
 
 tasks {
