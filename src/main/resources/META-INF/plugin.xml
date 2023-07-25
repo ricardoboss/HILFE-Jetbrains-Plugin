@@ -2,10 +2,12 @@
 an example how you can configure an plugin xml with you plugin
 see also jetbrains documentation: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>de.ricardoboss.plugins.hilfe-language</id>
+    <id>de.ricardoboss.plugins.hilfe</id>
     <name>HILFE</name>
     <vendor>Ricardo Boss</vendor>
-    <description>Adds support for the HILFE language.</description>
+    <description><![CDATA[
+Adds support for the HILFE language. Learn more about HILFE at <a href="https://github.com/ricardoboss/HILFE">github.com/ricardoboss/HILFE</a>
+]]></description>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html -->
